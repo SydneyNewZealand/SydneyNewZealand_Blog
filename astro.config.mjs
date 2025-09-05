@@ -27,7 +27,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 // https://astro.build/config
 export default defineConfig({
 	site: "https://SydneyNewZealand.github.io",
-	base: "SydneyNewZealand_Blog",
+	base: "/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
